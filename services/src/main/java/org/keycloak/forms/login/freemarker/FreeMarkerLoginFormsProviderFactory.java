@@ -30,7 +30,8 @@ public class FreeMarkerLoginFormsProviderFactory implements LoginFormsProviderFa
 
     @Override
     public LoginFormsProvider create(KeycloakSession session) {
-        return new FreeMarkerLoginFormsProvider(session);
+        //return new FreeMarkerLoginFormsProvider(session);
+        return new com.hwacom.forms.login.freemarker.FreeMarkerLoginFormsProvider(session);
     }
 
     @Override

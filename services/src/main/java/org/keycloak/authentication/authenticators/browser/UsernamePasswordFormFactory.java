@@ -35,7 +35,7 @@ import java.util.List;
 public class UsernamePasswordFormFactory implements AuthenticatorFactory {
 
     public static final String PROVIDER_ID = "auth-username-password-form";
-    public static final UsernamePasswordForm SINGLETON = new UsernamePasswordForm();
+    public static final UsernamePasswordForm SINGLETON = new com.hwacom.authentication.authenticators.browser.UsernamePasswordForm();
 
     @Override
     public Authenticator create(KeycloakSession session) {

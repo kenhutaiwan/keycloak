@@ -165,7 +165,7 @@ public class UpdatePassword implements RequiredActionProvider, RequiredActionFac
 
     @Override
     public RequiredActionProvider create(KeycloakSession session) {
-        return new UpdatePassword(session);
+        return new com.hwacom.authentication.requiredactions.UpdatePassword(session);
     }
 
     @Override
