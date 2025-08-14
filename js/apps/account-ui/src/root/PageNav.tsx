@@ -46,6 +46,7 @@ const menuItems: MenuItem[] = [
       {
         label: "signingIn",
         path: "account-security/signing-in",
+        isHidden: true
       },
       {
         label: "deviceActivity",
@@ -54,13 +55,15 @@ const menuItems: MenuItem[] = [
       {
         label: "linkedAccounts",
         path: "account-security/linked-accounts",
-        isHidden: !environment.features.isLinkedAccountsEnabled,
+        //isHidden: !environment.features.isLinkedAccountsEnabled,
+        isHidden: true
       },
     ],
   },
   {
     label: "applications",
     path: "applications",
+    isHidden: true
   },
   {
     label: "groups",

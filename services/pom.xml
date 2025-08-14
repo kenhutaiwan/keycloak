@@ -210,6 +210,12 @@
             <groupId>io.smallrye.common</groupId>
             <artifactId>smallrye-common-annotation</artifactId>
         </dependency>
+        <!-- 2024-04-10 Ken Hu, Google reCAPTCHA -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-recaptchaenterprise</artifactId>
+            <version>3.35.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
